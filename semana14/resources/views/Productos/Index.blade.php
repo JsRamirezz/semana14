@@ -106,9 +106,9 @@
             var cantidad = $(this).find('input[name="cantidad"]').val();
             var existencias = $(this).find('input[name="existencias"]').val();
 
-            // Aquí puedes hacer la llamada AJAX para actualizar los datos sin cambiar el orden en la tabla
+            
 
-            // Por ahora, simplemente actualizamos los valores en la tabla
+            // actualiza los valores en la tabla
             $('#row-' + id + ' td:eq(1)').text(nombre);
             $('#row-' + id + ' td:eq(2)').text(cantidad);
             $('#row-' + id + ' td:eq(3)').text(existencias);

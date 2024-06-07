@@ -8,25 +8,7 @@
     <link rel="stylesheet" href="{{ asset('css/homestyles.css') }}">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">¡¡¡Reservar Con Nosotros Es Mejor!!!</a>
-            <div class="collapse navbar-collapse">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="{{route('indexx')}}">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{route('index')}}">Inventario</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{route('forminsertar')}}">Añadir producto</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
+@include('layouts.navbar')
     <div class="jumbotron">
         <div class="container">
             <h1 class="display-4 text-white mb-4">Bienvenidos a Barbershop Supply Shop</h1>
@@ -43,7 +25,7 @@
         <div class="row">
             <div class="col-sm-4">
                 <div class="card">
-                    <img src="https://bellezammc.com.gt/wp-content/uploads/2022/05/2.jpg" class="card-img-top" alt="...">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzzvvg3pAxUUZkGq3aLTNTh6cEUoAbAUC9uw&s" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Nombre: Cepillo para el polvo</h5>
                         <p class="card-text">Precio: $5.90</p>

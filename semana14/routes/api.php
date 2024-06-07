@@ -2,6 +2,7 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ProductosController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,3 +18,15 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+
+
+//RUTAS USADAS PARA EL CRUD DE VUE
+Route::get('/citas', [ProductosController::class, 'citas']);
+Route::put('/citas/{id}', [ProductosController::class, 'update']);
+Route::delete('/citas/{id}', [ProductosController::class, 'destroy']);
+Route::get('/servicios', [ProductosController::class, 'getServicios']);
+Route::get('/estilistas', [ProductosController::class, 'getEstilistas']);
+
+
+
