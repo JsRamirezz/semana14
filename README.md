@@ -48,12 +48,12 @@ En la terminal del proyecto:
 
 INSTRUCCIONES PARA CORRER EL PROYECTO:
 
-1- Realizar los pasos descritos para instalar el proyecto LARAVEL
-2- Realizar los pasos descritos para instalar VUE
-3- Abrir 2 terminales
-4- En la primera terminal ejecutar el comando "npm run dev" 
-5- En la segunda terminal ejercutar el comando "php artisan serve" y copiar el URL local que nos dara
-6- Pegar el URL en el navegador
+- Realizar los pasos descritos para instalar el proyecto LARAVEL
+- Realizar los pasos descritos para instalar VUE
+- Abrir 2 terminales
+- En la primera terminal ejecutar el comando "npm run dev" 
+- En la segunda terminal ejercutar el comando "php artisan serve" y copiar el URL local que nos dara
+- Pegar el URL en el navegador
 
 
 
